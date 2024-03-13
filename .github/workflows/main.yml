@@ -1,9 +1,11 @@
+name: 🚀 Publish the site now
 on:
   push:
     branches:
       - "main"
-
-name: 🚀 Deploy website on push
+  pull_request:
+    branches:
+      - "main"
 jobs:
   web-deploy:
     name: 🎉 Deploy
