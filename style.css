@@ -1,0 +1,93 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    color: white;
+}
+
+.redbox {
+    background-color: red;
+
+}
+
+.bluebox {
+    background-color: blue;
+
+}
+
+.greenbox {
+    background-color: green;
+}
+
+.first-p {
+    color: blue;
+}
+
+/* p {
+    color: green;
+} */
+
+.airbnb {
+    border: 1px dashed #3399ff;
+    background-color: #e6e6ff;
+    width: 200px;
+    border-radius: 30px;
+    padding: 30px;
+    margin-bottom: 20px;
+    height: 300px;
+}
+
+.airbnb-image {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    /*margin: 30px 60px 60px 60px;*/
+}
+
+.airbn-description {
+    line-height: 20px;
+}
+
+.airbnb-parent {
+    /* border: 2px solid black; */
+    display: flex;
+    gap: 10px;
+    /* flex-direction: column;
+    flex-direction: row;    
+    flex-direction: row-reverse;   */
+    flex-direction: row;
+    height: 100vh;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.navbar {
+    width: 100%;
+    background-color: #e6e6ff;
+    padding: 10px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navbar-items {
+    margin-right: 50px;
+}
+
+.navbar-items a {
+    color: orangered;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+.active {
+    color: blue !important
+}
+
+.navbar-items a:hover {
+    color: blue;
+}
